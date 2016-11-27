@@ -1,0 +1,31 @@
+PODS:
+  - Alamofire (4.0.1)
+  - CollectionViewWaterfallLayout (0.2.2)
+  - MBProgressHUD (1.0.0)
+  - UIImage+BlurredFrame (0.0.4)
+
+DEPENDENCIES:
+  - Alamofire
+  - CollectionViewWaterfallLayout (from `https://github.com/ostatnicky/CollectionViewWaterfallLayout.git`, branch `feature/swift3`)
+  - MBProgressHUD
+  - UIImage+BlurredFrame
+
+EXTERNAL SOURCES:
+  CollectionViewWaterfallLayout:
+    :branch: feature/swift3
+    :git: https://github.com/ostatnicky/CollectionViewWaterfallLayout.git
+
+CHECKOUT OPTIONS:
+  CollectionViewWaterfallLayout:
+    :commit: 2da4c78fd2b5ecfad91d163092c98886cbdb3d3f
+    :git: https://github.com/ostatnicky/CollectionViewWaterfallLayout.git
+
+SPEC CHECKSUMS:
+  Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
+  CollectionViewWaterfallLayout: b4f9aabad89609696ea3f6dceff956dd58e2bae4
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  UIImage+BlurredFrame: ad2f7195c6947ea3117c7d202f75a51958d5061a
+
+PODFILE CHECKSUM: 2468e69d7d80b905256c5aa12422c371232a8a4e
+
+COCOAPODS: 1.0.0.beta.8

@@ -1,0 +1,18 @@
+/* 
+  Localizable.strings
+  PromTest
+
+  Created by Dmitriy Shulzhenko on 11/23/16.
+  Copyright © 2016 dmitriy.shulzhenko. All rights reserved.
+*/
+
+"Sort" = "Сортировка";
+
+"Sort by" = "Сортировка по";
+
+"-popularity" = "Популярнось";
+"price" = "От дешевых к дорогим";
+"-price" = "От дорогих к дешевым";
+"-score" = "По рейтингу Prom.ua";
+"-company_opinions" = "По количеству отзывов о компании";
+"-product_opinions" = "По количеству отзывов о продукте";

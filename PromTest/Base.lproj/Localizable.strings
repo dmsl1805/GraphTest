@@ -1,0 +1,18 @@
+/* 
+  Localizable.strings
+  PromTest
+
+  Created by Dmitriy Shulzhenko on 11/23/16.
+  Copyright © 2016 dmitriy.shulzhenko. All rights reserved.
+*/
+
+"Sort" = "Сортировка";
+
+"Sort by" = "Сортировка по";
+
+"-popularity" = "Popularity";
+"price" = "Price from low to high";
+"-price" = "Price from high to low";
+"-score" = "Score";
+"-company_opinions" = "Company opinions";
+"-product_opinions" = "Product opinions";

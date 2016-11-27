@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PickerView" customModule="PromTest" customModuleProvider="target">
+            <connections>
+                <outlet property="leftButton" destination="SVV-c4-ojn" id="Fyd-Ra-zLU"/>
+                <outlet property="pickerView" destination="hyS-3w-Mg6" id="z4d-aK-6Jx"/>
+                <outlet property="rightButton" destination="IAt-r5-mUZ" id="kUJ-CE-d80"/>
+                <outlet property="titleItem" destination="ftb-RD-Og7" id="DNY-OM-fe3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="XPX-NJ-ZdB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="260"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hyS-3w-Mg6">
+                    <rect key="frame" x="0.0" y="44" width="375" height="216"/>
+                </pickerView>
+                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="76U-HG-D0K">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                    <items>
+                        <barButtonItem systemItem="cancel" id="SVV-c4-ojn">
+                            <connections>
+                                <action selector="buttonPressed:" destination="-1" id="zkh-oX-cg8"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem systemItem="flexibleSpace" id="6BL-br-dSq"/>
+                        <barButtonItem title="TITLE" id="ftb-RD-Og7">
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        </barButtonItem>
+                        <barButtonItem systemItem="flexibleSpace" id="IZC-RT-zky"/>
+                        <barButtonItem systemItem="done" id="IAt-r5-mUZ">
+                            <connections>
+                                <action selector="buttonPressed:" destination="-1" id="tBZ-2e-n2T"/>
+                            </connections>
+                        </barButtonItem>
+                    </items>
+                </toolbar>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="76U-HG-D0K" firstAttribute="leading" secondItem="XPX-NJ-ZdB" secondAttribute="leading" id="2YY-fo-9fh"/>
+                <constraint firstItem="hyS-3w-Mg6" firstAttribute="leading" secondItem="XPX-NJ-ZdB" secondAttribute="leading" id="JgQ-Yb-e3L"/>
+                <constraint firstAttribute="bottom" secondItem="hyS-3w-Mg6" secondAttribute="bottom" id="fcZ-A4-g9N"/>
+                <constraint firstAttribute="trailing" secondItem="hyS-3w-Mg6" secondAttribute="trailing" id="fqz-1y-fvQ"/>
+                <constraint firstItem="hyS-3w-Mg6" firstAttribute="top" secondItem="76U-HG-D0K" secondAttribute="bottom" id="taP-hy-bZY"/>
+                <constraint firstAttribute="trailing" secondItem="76U-HG-D0K" secondAttribute="trailing" id="wL2-ia-BhD"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="132" y="-654"/>
+        </view>
+    </objects>
+</document>
